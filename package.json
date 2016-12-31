@@ -1,0 +1,43 @@
+{
+  "name": "push-notification",
+  "version": "0.1.7",
+  "description": "Push notification engine for android and ios platforms.",
+  "author": {
+    "name": "Gautam Bhalla",
+    "email": "gautambhalla163@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gautambhalla163/pushengine.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "notification engine",
+    "push notifications",
+    "push notification engine",
+    "app notification",
+    "apn",
+    "gcm",
+    "ios",
+  ],
+  "dependencies": {
+    "apn": "^1.7.4",
+    "node-gcm": "^0.11.0"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-cli": "^1.12.0",
+    "jshint-stylish": "^1.0.1",
+    "load-grunt-tasks": "^3.1.0",
+    "time-grunt": "^1.1.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  }
+}
